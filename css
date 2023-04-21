@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+ /* css for body  */
+ body{
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Telex', sans-serif;
+    
+ } 
+  /* Css for header  */
+ .img{
+    display: flex;
+    width: 150px;
+    height: 50px;
+    filter: invert(100);
+
+ }
+ header{
+    margin: 10px;
+ }
+ header .navbar {
+     display: flex;
+     
+ }
+
+ ul {
+    display: flex;
+ }
+ ul li  {
+    padding: 15px 20px 15px 25px;
+    margin-left: 38px;
+    cursor: pointer;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 600;
+ }
+ .btn{ 
+    position: absolute;
+    right: 10px;
+    top: 25px;
+    align-items: center;
+    padding: 10px 25px;
+    color: white;
+ 
+    
+ }
+
+                    /*Universal selector */
+  button{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(80, 80, 224);
+    
+    
+}
+button a {
+     font-weight: 600;
+     color: white;
+     font-size: 14px;
+     text-decoration: none;
+
+ }
+                                    /* Css for section  */
+ .hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+ }
+ .hero-section-left{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+  margin-left: 30px;
+    align-items: start; 
+
+ }
+ .hero-section-left h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    
+ }
+ .hero-section-left h2 span  {
+ color: rgb(80, 80, 224);
+ font-weight: 800;
+
+ }
+.para{
+    display: flex;
+    font-size: 1rem;
+    font-weight: 500;
+  text-align: start;
+ margin-left: 0;
+ color: grey;
+ padding-top: 15px;
+
+
+ }
+ .btn-1{
+    padding: 10px 25px;
+    margin-top: 40px;
+ }
+ .hero-section-right{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+
+ }
+ .hero-section-right img {
+    height: 600px;
+ }
